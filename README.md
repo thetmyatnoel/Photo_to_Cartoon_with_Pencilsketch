@@ -21,14 +21,36 @@ To use this code, you need to have Python and OpenCV installed on your system.
 4.  Run the script using the command "python Photo_to_cartoon.py".
 5.  The output will be displayed on the screen with the original and cartoon images side by side.
 
+## Comparison of my code with ChatGPT's code
 
-
+The chatGPT's code performs the following steps:
+1.  Load the image.
+2.  Convert the image to grayscale.
+3.  Apply median blur to reduce noise.
+4.  Detect edges using adaptive thresholding.
+5.  Convert the image to color.
+6.  Apply bilateral filter to preserve edges while reducing noise.
+7.  Combine the color image with the edges mask.
+8.  Display the cartoon image.
 
 <img width="1243" alt="Screen Shot 2023-03-21 at 4 08 53 PM" src="https://user-images.githubusercontent.com/126442096/226538899-dd69a2b6-113c-446e-8c08-d5b86b7a7170.png">
 
 Here is the result of the code by ChatGPT.
 
-
+My upgraded code performs the following steps:
+1.  Load the image.
+2.  Convert the image to grayscale.
+3.  Apply median blur to smooth the image.
+4.  Detect edges using adaptive thresholding.
+5.  Apply bilateral filter to preserve edges while reducing noise.
+6.  Add a solid color background.
+7.  Create a mask for the edges.
+8.  Apply the mask to the background image.
+9.  Apply the mask to the color image.
+10. Add a sketch effect.
+11. Combine the edge-detected image with the color image and sketch effect.
+12. Increase contrast and brightness.
+13. Display the original and cartoon images side by side.
 <img width="1243" alt="Screen Shot 2023-03-21 at 4 09 52 PM" src="https://user-images.githubusercontent.com/126442096/226539027-c3573296-dc03-43dd-b7d3-f1cf8eb44254.png">
 
 Here is the result of my upgraded code.
