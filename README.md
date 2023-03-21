@@ -24,3 +24,11 @@ To use this code, you need to have Python and OpenCV installed on your system.
 
 
 
+<img width="1243" alt="Screen Shot 2023-03-21 at 4 08 53 PM" src="https://user-images.githubusercontent.com/126442096/226538899-dd69a2b6-113c-446e-8c08-d5b86b7a7170.png">
+
+Here is the result of the code by ChatGPT.
+
+
+<img width="1243" alt="Screen Shot 2023-03-21 at 4 09 52 PM" src="https://user-images.githubusercontent.com/126442096/226539027-c3573296-dc03-43dd-b7d3-f1cf8eb44254.png">
+
+Here is the result of my upgraded code.
